@@ -1,0 +1,45 @@
+body {
+    background: url("../images/background.jpeg");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: azure;
+    margin: 10px;
+    width: 25%;
+    border: solid 2px pink;
+}
+
+.header,
+.crystal {
+    background-color: yellow;
+}
+
+.header,
+.rules {
+    width: 50%;
+}
+
+.numberToMatch,
+.scores {
+    float: left;
+    width: 15%;
+    height: 60px;
+}
+
+.playerTotal {
+    width: 15%;
+    height: 60px;
+}
+
+.crystals {
+    clear: both;
+}
+
+.crystalImg {
+    height: 60px;
+    margin: 10px;
+}

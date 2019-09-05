@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Crystal Collector</h1>
+    </div>
+
+    <div class="rules">
+        <p>You will be given a random number at the start of the game. </p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the value of each crystal.</p>
+    </div>
+
+    <div class="numberToMatch">
+        <span id="randomNumber"></span>
+    </div>
+
+    <div class="score">
+        <h3>Wins:
+            <span id="numberWins"></span>
+            <br> Losses:
+            <span id="numberLosses"></span>
+        </h3>
+    </div>
+
+    <div class="crystals">
+        <img src="assests/images/blue.jpeg" class=crystalImg id="one" alt="Blue Crystal">
+        <img src="assests/images/pink.jpeg" class=crystalImg id="two" alt="Pink Crystal">
+        <img src="assests/images/red.jpeg" class=crystalImg id="three" alt="Red Crystal">
+        <img src="assests/images/purple.jpeg" class=crystalImg id="four" alt="Purple Crystal">
+    </div>
+
+    <div class="playerTotal">
+        <h3>Your total score is:
+            <span id="finalTotal"></span>
+        </h3>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assests/javascript/game.js"></script>
+
+</body>
+
+</html>z
